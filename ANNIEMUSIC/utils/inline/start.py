@@ -14,7 +14,6 @@ def start_pannel(_):
             ),
         ],
         [
-            InlineKeyboardButton(text="🗒 Command", callback_data="settings_back_helper"),
             InlineKeyboardButton(text="☢ 𝐒𝙴𝚃 ☢", callback_data="settings_helper"),
         ],
         [
@@ -61,12 +60,9 @@ def music_start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="+ Add me to your clan darlo +",
+                text="✚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
-        ],
-        [
-            InlineKeyboardButton(text="🗒 Command", callback_data="feature"),
         ],
         [
             InlineKeyboardButton(text="✨ ᴏᴡɴᴇʀ ✨", callback_data="developer"),
