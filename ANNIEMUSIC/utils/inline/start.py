@@ -18,7 +18,7 @@ def start_pannel(_):
             InlineKeyboardButton(text="☢ 𝐒𝙴𝚃 ☢", callback_data="settings_helper"),
         ],
         [
-            InlineKeyboardButton(text="💫 sᴜᴘᴘᴏʀᴛ 💫"", url=config.SUPPORT_GROUP),
+            InlineKeyboardButton(text="💫 sᴜᴘᴘᴏʀᴛ 💫", url=config.SUPPORT_GROUP),
         ],
     ]
     return buttons
