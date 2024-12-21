@@ -65,7 +65,6 @@ def music_start_panel(_):
             )
         ],
         [
-            InlineKeyboardButton(text="✨ ᴏᴡɴᴇʀ ✨", callback_data="developer"),
             InlineKeyboardButton(text="🍬 ᴄʜᴀɴɴᴇʟ 🍬", url="https://t.me/ToluUpdate"),
         ],
     ]
